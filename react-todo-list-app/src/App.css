@@ -184,3 +184,22 @@
   .edit-icon {
     color: #D6D6FF;
   }
+
+  @media only screen and (max-width: 560px) {
+    .todo-app {
+      margin: 32px auto;
+      width: 300px;
+    }
+    .todo-input {
+      width: 160px;
+    }
+    .description{
+      font-size: medium;
+    }
+    .title h2{
+      font-size: 40px;
+    }
+    .footer h3{
+      font-size: 35px;
+    }
+  }
