@@ -26,10 +26,33 @@
     padding-bottom: 32px;
   }
   
+  .title {
+
+    background-color: #161a2b;
+    text-align: center;
+  }
+
+  .footer {
+
+    
+    background-color: #161a2b;
+    text-align: center;
+  }
+
   h1 {
     margin: 32px 0;
     color: #fff;
     font-size: 24px;
+  }
+
+  h2 {
+    color: #fff;
+    font-size: 80px;
+  }
+
+  h3 {
+    color: rgba(255, 255, 255, 0.694);
+    font-size: 50px;
   }
   
   .complete {
