@@ -33,15 +33,15 @@ function TodoList() {
     const completeTodo = id => {
         let updatedTodos = todos.map(todo => {
             if (todo.id === id) {
-                todo.isComplete = !todo.isComplete
+                todo.isComplete = !todo.isComplete;
             }
-            return todo
-        })
+            return todo;
+        });
         setTodos(updatedTodos);
     }
 
     return (
-        <div>
+        <>
             <h1>What's the plan for Today?</h1>
             <TodoForm onSubmit={addTodo} />
             <Todo
@@ -50,8 +50,8 @@ function TodoList() {
                 removeTodo={removeTodo}
                 updateTodo={updateTodo}
             />
-        </div>
-    )
+        </>
+    );
 }
 
 export default TodoList
